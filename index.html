@@ -166,10 +166,41 @@
 
 
             </div>
+            <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
+              <div class="mb-4">
+                <img src="images/Image%204-21-25%20at%209.26%E2%80%AFPM.jpeg" alt="ElevatorSimulator Diagram" class="img-fluid">
+                <h3>Elevator Simulator</h3>
 
-            
+                <p>
+                  The Elevator Scheduling Simulator is a Java program that models how elevators operate in a multi-story building. It simulates four types of elevators: standard,
+                  freight, express, and penthouse elevators, each with their own unique behavior. The simulator assigns elevator calls based on different scheduling strategies (simple and complex) and
+                  runs over multiple time steps, printing the state of each elevator at each round. The goal is to provide a realistic, extensible framework for testing elevator assignment
+                  strategies and logic.
+                </p>
+                <p>
+                  This project is designed to mimic how real elevators would respond to floor calls in a building. A call is a request from one floor to another just like pressing the button in an elevator.
+                  When the simulation starts, it assigns these calls to elevators using either a simple scheduler, which assigns the first available elevator, or a complex scheduler, which picks the best
+                  elevator based on proximity and direction. Each elevator then “moves” one floor at a time toward picking up or dropping off passengers. The program prints elevator status and keeps track
+                  of unassigned calls.
+                </p>
+                <p>
+                  The project uses object-oriented design principles such as inheritance and polymorphism to make the code modular and extendable. I was responsible for implementing the framework code for the
+                  SimpleElevatorScheduler and ComplexElevatorScheduler classes as well as the ElevatorScheduler interface. ElevatorScheduler was used to decouple the scheduling logic from the elevators themselves,
+                  promoting separation of concerns and allowing the easy addition of new schedulers. The main class, ElevatorSimulator, represented the "brain" of the system and coordinated all of the parts together.
+                  In addition, I was also responsible for writing JUnit tests for all of these classes and was required to work well in collaboration with my partner using good teamwork practices.
+                </p>
+                <p>
+                  This project helped me deepen my understanding of object-oriented design and the importance of clean abstractions. I got better at writing and organizing unit tests and learned how to simulate
+                  state changes in a complex system. Working through input parsing, immutability errors, and method overrides taught me to be more detail-oriented with Java. I also learned how to design for
+                  extensibility—if we wanted to add more elevator types or behaviors, the project could handle that smoothly.
 
-          </div>
+
+                </p>
+
+
+
+
+              </div>
         </div>
       </div>
       
